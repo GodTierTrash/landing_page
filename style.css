@@ -31,3 +31,17 @@ ul {
     background-color: #1F2937;
     color: white;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+}
