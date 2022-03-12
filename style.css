@@ -2,3 +2,21 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+a,
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
