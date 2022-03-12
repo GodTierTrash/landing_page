@@ -7,16 +7,27 @@ a,
 ul {
     text-decoration: none;
     list-style-type: none;
+    color: white;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    background-color: #1F2937;
 }
 
 .links {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
