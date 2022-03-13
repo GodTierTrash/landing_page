@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 a,
@@ -30,6 +31,7 @@ ul {
     align-items: center;
     background-color: #1F2937;
     color: white;
+    min-height: 60px;
 }
 
 .hero {
@@ -44,7 +46,7 @@ button {
     background-color: #3882F6;
     border: none;
     border-radius: 4px;
-    flex: 0;
+    flex: none;
     display: flex;
 }
 
@@ -81,11 +83,22 @@ button {
     align-items: center;
     border-radius: 4px;
     width: 300px;
-    margin: 40px;
+    margin: 20px;
     font-size: 36;
     font-style: italic;
 }
 
 .call {
     display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
